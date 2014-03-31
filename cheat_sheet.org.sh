@@ -590,3 +590,7 @@ mysql -u username -p --database=databasename < dumpfile.sql
 service --status-all
 service apache2 status
 service apache2 stop
+
+# apt-get
+# list of installed packages
+dpkg --get-selections | grep -v deinstall
