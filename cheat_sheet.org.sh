@@ -585,3 +585,8 @@ mysqldump -u username -p --opt databasename > dumpfile.sql
 
 # restore from entire database dump:
 mysql -u username -p --database=databasename < dumpfile.sql
+
+# service status
+service --status-all
+service apache2 status
+service apache2 stop
